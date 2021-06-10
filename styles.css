@@ -1,0 +1,159 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    height: 120px;
+    background-color:#fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+    float: left;
+    color:#44ad8f;
+    font-weight: 900;
+    font-size: 3em;
+    padding-top: 10px;
+}
+
+.menu-nav{
+    padding-top: 30px;
+    float: right;
+}
+
+.menu-nav li{
+    display: inline-block;
+}
+
+.menu-nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color:#4FE0B6;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.menu-nav a:hover {
+    color: #055c43;
+}
+
+
+.banner {
+    background: url("./img/banner.jpg") no-repeat center center;
+    padding: 330px 90px;
+    width: 100%;
+}
+
+.banner_text {
+    color: #364965;
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.title {
+    text-align: center;
+    height: 60px;
+    color: #3E54D3;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+    font-weight: 900;
+    border-bottom: 8px solid #4F80E2;
+    /* text-decoration: underline #293992;  */
+}
+
+.blog {
+    margin: 0 auto;
+}
+
+figcaption{
+    font-size: large;
+    color: #055c43;
+    
+}
+
+.regiao-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.regiao-item > div {
+    padding-left: 20px;
+}
+
+.regiao_title {
+    color: #15CDCA;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.newsletter {
+    background-color:#4F80E2;
+    height: 100px;
+    
+}
+
+.newsletter_content {
+    display: flex;
+}
+
+.news_title, form {
+    font-size: 1.5em;
+    padding-top: 40px;
+    color: #fff;
+    font-size: 900;
+}
+
+
+
+form {
+    padding-left: 190px;
+}
+
+form input, button {
+    width:150px;
+    height: 25px;
+    border:1px solid rgba(0,0,0,0.3);
+    box-shadow:0 0 5px;
+    border-radius: 4px;
+}
+
+footer {
+    height: 160px;
+    background-color: #4FE0B6;
+    
+}
+
+footer  p {
+    text-align: center;
+    color: #364965;
+    padding-top: 20px;
+    font-family: 1.3em;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_redes {
+    width: 3em;
+    padding-top: 20px;
+   
+}
+
+
